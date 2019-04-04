@@ -1,18 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch, 
+  Route
+} from 'react-router-dom';
+import Home from '../src/components/home/Home';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <p> Helloworld!
-          </p>
-        </header>
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <Router>
+      <>
+        <main>
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </main>
+      </>
+    </Router>
+  );
 }
-
-export default App;
