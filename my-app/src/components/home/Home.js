@@ -3,8 +3,18 @@ import React from 'react';
 import Sidebar from '../sidebar/Sidebar';
 // import HomeContainer from '../../containers/events/HomeContainer';
 import Header from '../header/Header';
+import data from '../../services/dataSvc';
 
-function Home() {
+// make this class based
+
+export default class Home extends React.PureComponent {
+
+  //componentDidMount(){}
+  // create componentDidMount here and add state with data = null
+  // when component mounts, set const data = getData() then add it to state
+  // access its properties from state in your render method
+  render() {
+  
   return (
     <section>
     <Header />
@@ -13,5 +23,4 @@ function Home() {
     </section>
   );
 }
-
-export default Home;
+}
