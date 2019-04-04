@@ -5,6 +5,7 @@ export default function Header() {
     <div class="header">
       <h1 class="header">Map My Health</h1>
       <Link to="/">Home</Link>
+      <Link to="/contact">Contacts</Link>
     </div>
   );
 }
