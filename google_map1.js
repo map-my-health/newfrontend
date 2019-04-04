@@ -45,6 +45,21 @@ var infowindow = new google.maps.InfoWindow({
   content:"Hello World!"
 });
 
+//Place ID
+var request = {
+  placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4', //TODO get Place IDs from external file
+  fields: ['name', 'rating', 'formatted_phone_number', 'geometry']
+};
+
+service = new google.maps.places.PlacesService(map);
+service.getDetails(request, callback);
+
+function callback(place, status) {
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+    createMarker(place);
+  }
+}
+
 google.maps.event.addListener(marker, 'click', function() {
   infowindow.open(map,marker);
 });
