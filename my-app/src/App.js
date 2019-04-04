@@ -1,15 +1,24 @@
-import React, { Component } from 'react';
+
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch, 
+  Route
+} from 'react-router-dom';
+import Home from '../src/components/home/Home';
 import Sidebar from './Sidebar'
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Sidebar />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <Router>
+      <>
+        <main>
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </main>
+      </>
+    </Router>
+  );
 }
-
-export default App;
