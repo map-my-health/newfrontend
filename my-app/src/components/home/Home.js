@@ -6,9 +6,8 @@ import Header from '../header/Header';
 
 function Home() {
   return (
-    <section className={styles.Home}>
-    <Header />
     <section>
+    <Header />
     <p>This is home</p>
     <Sidebar />
     </section>
