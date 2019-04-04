@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+   }
+   
+   #title {
+    font-size: 30px;
+    font-family: serif;
+   }
+   .nav{
+       padding-right: 20px;
+   }
