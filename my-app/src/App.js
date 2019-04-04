@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -5,6 +6,7 @@ import {
   Route
 } from 'react-router-dom';
 import Home from '../src/components/home/Home';
+import Sidebar from './Sidebar'
 import './App.css';
 
 export default function App() {
