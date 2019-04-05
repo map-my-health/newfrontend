@@ -27,6 +27,7 @@ async componentDidMount(){
   // access its properties from state in your render method
   render() {
   console.log(`state is`,this.state)
+  
   return (
     <section>
     <Header />
