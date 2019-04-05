@@ -7,6 +7,7 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKCwoT2QjZr1Kg9w4UNZ7E148wB9M1hrg&libraries=places&callback=initMap"
         async defer></script>
+<script>
 
 <div style="display: none">
     <input id="pac-input"
@@ -25,8 +26,6 @@
 
 
 <div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
 
 //uses load function to get file with lat/long
 map.data.loadGeoJson('test_data.json');
