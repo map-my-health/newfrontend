@@ -2,9 +2,9 @@ import React from 'react';
 //import styles from './Home.css';
 import Sidebar from '../sidebar/Sidebar';
 // import HomeContainer from '../../containers/events/HomeContainer';
-import Header from '../header/Header';
 //import data from '../../services/data';
 import { getData } from '../../services/dataSvc'
+import styles from './Home.css'
 
 // make this class based
 
@@ -28,10 +28,9 @@ async componentDidMount(){
   render() {
   console.log(`state is`,this.state)
   return (
-    <section>
-    <Header />
+    <section className={styles.Home}>
     {/* //this.state.data.map(item => <p>{item.ultrasound}</p>) */}
-    <p>This is home</p>
+    <p id="welcome">Welcome to Map My Health, a site aimed to help patients in Oregon access health costs, compare pricing and provide a map view of the hospitals that offer the procedures that they are interested in.</p>
     <Sidebar procedures={this.state}/>
     </section>
   );

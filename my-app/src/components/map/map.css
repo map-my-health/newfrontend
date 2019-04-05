@@ -1,0 +1,16 @@
+.map {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+#oregon-map, #portland-map {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+  margin-top: 10px;
+  border: 2px solid black;
+}
