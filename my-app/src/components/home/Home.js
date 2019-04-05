@@ -9,11 +9,14 @@ import styles from './Home.css'
 // make this class based
 
 export default class Home extends React.PureComponent {
-
-  state = {
-    data: null,
+constructor(props){
+  super(props)
+  this.state = {
+   data: null,
     loading: true
   }
+}
+
 
 async componentDidMount(){
   const res = await getData();
@@ -27,6 +30,7 @@ async componentDidMount(){
   // access its properties from state in your render method
   render() {
   console.log(`state is`,this.state)
+  
   return (
     <section className={styles.Home}>
     {/* //this.state.data.map(item => <p>{item.ultrasound}</p>) */}

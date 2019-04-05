@@ -6,7 +6,8 @@ import data from  '../src/services/data'
 import "typeface-roboto";
 import "typeface-signika";
 import "typeface-righteous";
-ReactDOM.render(<App DATA={data}/>, document.getElementById('root'));
+import testData from  '../src/services/Testdata'
+ReactDOM.render(<App DATA={testData}/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -1,7 +1,7 @@
-import data from './data';
-
+//import data from './data';
+import testData from './Testdata'
 export const getData = () => {
     
-    return Promise.resolve(data);
+    return Promise.resolve(testData);
     
 }
