@@ -1,7 +1,8 @@
 export default [
   {
-    "Name": "Mid-Columbia Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+     "Name": "Mid-Columbia Medical Center",
+     "Procedures":
+      [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -81,10 +82,10 @@ export default [
     "CVC Insertion": "",
     "Breast Biopsy": "",
     "Tonsillectomy": ""
-  },
+  }]},
   {
     "Name": "Asante Three Rivers Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+     "Procedures":    [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1384,
     "Central Line": "",
@@ -163,11 +164,11 @@ export default [
     "Hysteroscopy": 6397,
     "CVC Insertion": 6704,
     "Breast Biopsy": 3864,
-    "Tonsillectomy": 5434
+    "Tonsillectomy": 5434}]
   },
   {
     "Name": "Asante Ashland Community Hospital",
-    "Cardiovascular: Electrophysiology": "",
+     "Procedures":    [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -246,11 +247,12 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": 3573,
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Legacy Emanuel Medical Center",
-    "Cardiovascular: Electrophysiology": 48813,
+    "Procedures":    
+    [{ "Cardiovascular: Electrophysiology": 48813,
     "Thyroidectomy": 12222,
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": 48628,
@@ -329,11 +331,12 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": 6599
+    "Tonsillectomy": 6599}]
   },
   {
     "Name": "Good Samaritan Regional Medical Center",
-    "Cardiovascular: Electrophysiology": 40627,
+    "Procedures":    
+    [{"Cardiovascular: Electrophysiology": 40627,
     "Thyroidectomy": 16109,
     "Nuclear Medicine: Musculoskeletal": 1082,
     "Central Line": 28054,
@@ -412,11 +415,12 @@ export default [
     "Hysteroscopy": 8212,
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": 6242
+    "Tonsillectomy": 6242}]
   },
   {
     "Name": "Asante Rogue Regional Medical center",
-    "Cardiovascular: Electrophysiology": 42101,
+    "Procedures":    
+    [{ "Cardiovascular: Electrophysiology": 42101,
     "Thyroidectomy": 16916,
     "Nuclear Medicine: Musculoskeletal": 1406,
     "Central Line": 28648,
@@ -495,11 +499,12 @@ export default [
     "Hysteroscopy": 7257,
     "CVC Insertion": 7349,
     "Breast Biopsy": 3621,
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "McKenzie-Willamette Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures":    
+    [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -578,11 +583,12 @@ export default [
     "Hysteroscopy": 8366,
     "CVC Insertion": 4173,
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Tuality Healthcare",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures":    
+    [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 947,
     "Central Line": "",
@@ -661,11 +667,12 @@ export default [
     "Hysteroscopy": 4692,
     "CVC Insertion": "",
     "Breast Biopsy": 1730,
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Samaritan Albany General Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures":    
+    [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -744,11 +751,11 @@ export default [
     "Hysteroscopy": 7210,
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": 6262
+    "Tonsillectomy": 6262}]
   },
   {
     "Name": "Legacy Mount Hood Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures":    [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1016,
     "Central Line": "",
@@ -827,11 +834,11 @@ export default [
     "Hysteroscopy": 6541,
     "CVC Insertion": "",
     "Breast Biopsy": 3162,
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Mercy Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1152,
     "Central Line": "",
@@ -910,11 +917,12 @@ export default [
     "Hysteroscopy": 9217,
     "CVC Insertion": 7086,
     "Breast Biopsy": 3298,
-    "Tonsillectomy": 4986
+    "Tonsillectomy": 4986 }]
+  
   },
   {
     "Name": "Legacy Silverton Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 663,
     "Central Line": "",
@@ -993,10 +1001,12 @@ export default [
     "Hysteroscopy": 8457,
     "CVC Insertion": "",
     "Breast Biopsy": 2121,
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" 
+  }]
   },
   {
     "Name": "PeaceHealth Sacred Heart Medical Center University District",
+    "Procedures": [{
     "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
@@ -1076,11 +1086,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Providence Newberg Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures":[{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 504,
     "Central Line": "",
@@ -1159,11 +1169,11 @@ export default [
     "Hysteroscopy": 8054,
     "CVC Insertion": "",
     "Breast Biopsy": 3163,
-    "Tonsillectomy": 6886
+    "Tonsillectomy": 6886}]
   },
   {
     "Name": "Providence Willamette Falls Medical Ctr",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 633,
     "Central Line": "",
@@ -1242,11 +1252,11 @@ export default [
     "Hysteroscopy": 4900,
     "CVC Insertion": "",
     "Breast Biopsy": 3045,
-    "Tonsillectomy": 5253
+    "Tonsillectomy": 5253}]
   },
   {
     "Name": "St Charles Redmond",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -1325,11 +1335,11 @@ export default [
     "Hysteroscopy": 11439,
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "St Charles Bend",
-    "Cardiovascular: Electrophysiology": 57677,
+    "Procedures":[{"Cardiovascular: Electrophysiology": 57677,
     "Thyroidectomy": 15210,
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": 31347,
@@ -1408,11 +1418,11 @@ export default [
     "Hysteroscopy": 9653,
     "CVC Insertion": 7937,
     "Breast Biopsy": "",
-    "Tonsillectomy": 5325
+    "Tonsillectomy": 5325}]
   },
   {
     "Name": "Sky Lakes Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1372,
     "Central Line": "",
@@ -1491,11 +1501,11 @@ export default [
     "Hysteroscopy": 6898,
     "CVC Insertion": "",
     "Breast Biopsy": 5034,
-    "Tonsillectomy": 7745
+    "Tonsillectomy": 7745}]
   },
   {
     "Name": "Saint Alphonsus Medical Center - Ontario",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures":    [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -1574,11 +1584,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": 4937
+    "Tonsillectomy": 4937}]
   },
   {
     "Name": "Santiam Memorial Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures":    [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -1657,11 +1667,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Adventist Health Portland",
-    "Cardiovascular: Electrophysiology": 38336,
+    "Procedures": [{"Cardiovascular: Electrophysiology": 38336,
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -1740,11 +1750,11 @@ export default [
     "Hysteroscopy": 5197,
     "CVC Insertion": 4212,
     "Breast Biopsy": 2899,
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Willamette Valley Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1453,
     "Central Line": "",
@@ -1823,11 +1833,11 @@ export default [
     "Hysteroscopy": 5866,
     "CVC Insertion": 5729,
     "Breast Biopsy": 2982,
-    "Tonsillectomy": ""
+    "Tonsillectomy": ""}]
   },
   {
     "Name": "Providence Medford Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1102,
     "Central Line": "",
@@ -1906,11 +1916,11 @@ export default [
     "Hysteroscopy": 8300,
     "CVC Insertion": 9097,
     "Breast Biopsy": 3260,
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Providence Milwaukie Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 514,
     "Central Line": "",
@@ -1989,11 +1999,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": 3559,
-    "Tonsillectomy": 5459
+    "Tonsillectomy": 5459 }]
   },
   {
     "Name": "Legacy Meridian Park Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1016,
     "Central Line": "",
@@ -2072,11 +2082,11 @@ export default [
     "Hysteroscopy": 5946,
     "CVC Insertion": 6862,
     "Breast Biopsy": 2876,
-    "Tonsillectomy": 4937
+    "Tonsillectomy": 4937}]
   },
   {
     "Name": "Bay Area Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2155,11 +2165,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "PeaceHealth Sacred Heart Medical Center at RiverBend",
-    "Cardiovascular: Electrophysiology": 38063,
+    "Procedures": [{"Cardiovascular: Electrophysiology": 38063,
     "Thyroidectomy": 15561,
     "Nuclear Medicine: Musculoskeletal": 1294,
     "Central Line": "",
@@ -2238,11 +2248,11 @@ export default [
     "Hysteroscopy": 7465,
     "CVC Insertion": 5707,
     "Breast Biopsy": "",
-    "Tonsillectomy": 6485
+    "Tonsillectomy": 6485 }]
   },
   {
     "Name": "Kaiser Westside Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": 12733,
     "Nuclear Medicine: Musculoskeletal": 914,
     "Central Line": 25246,
@@ -2321,11 +2331,11 @@ export default [
     "Hysteroscopy": 4862,
     "CVC Insertion": 1567,
     "Breast Biopsy": 1944,
-    "Tonsillectomy": 4403
+    "Tonsillectomy": 4403}]
   },
   {
     "Name": "PeaceHealth Cottage Grove Community Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2404,11 +2414,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Samaritan North Lincoln Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2487,11 +2497,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Providence Seaside Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2570,11 +2580,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Southern Coos Hospital & Health Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2653,11 +2663,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Blue Mountain Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2736,11 +2746,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Wallowa Memorial Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2819,11 +2829,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Harney District Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2902,11 +2912,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Salem Health West Valley",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -2985,11 +2995,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Lake District Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3068,11 +3078,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Pioneer Memorial Hospital (H)",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3151,11 +3161,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Lower Umpqua Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3234,11 +3244,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Coquille Valley Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3317,11 +3327,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "St Charles Prineville",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3400,11 +3410,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Samaritan Pacific Communities Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3483,11 +3493,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Saint Alphonsus Medical Center - Baker City",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3566,11 +3576,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "PeaceHealth Peace Harbor Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3649,11 +3659,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Tillamook Regional Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3732,11 +3742,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": 3424
+    "Tonsillectomy": 3424}]
   },
   {
     "Name": "Providence Hood River Memorial Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3815,11 +3825,11 @@ export default [
     "Hysteroscopy": 7922,
     "CVC Insertion": "",
     "Breast Biopsy": 3742,
-    "Tonsillectomy": 6070
+    "Tonsillectomy": 6070}]
   },
   {
     "Name": "St Anthony Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3898,11 +3908,11 @@ export default [
     "Hysteroscopy": 6188,
     "CVC Insertion": "",
     "Breast Biopsy": 2018,
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Columbia Memorial Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -3981,11 +3991,11 @@ export default [
     "Hysteroscopy": 6905,
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Grande Ronde Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -4064,11 +4074,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": 3526,
-    "Tonsillectomy": 7236
+    "Tonsillectomy": 7236}]
   },
   {
     "Name": "Curry General Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{ "Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -4147,11 +4157,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Samaritan Lebanon Community Hospital",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": 1068,
     "Central Line": "",
@@ -4230,11 +4240,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "St Charles Madras",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -4313,11 +4323,11 @@ export default [
     "Hysteroscopy": "",
     "CVC Insertion": "",
     "Breast Biopsy": "",
-    "Tonsillectomy": ""
+    "Tonsillectomy": "" }]
   },
   {
     "Name": "Good Shepherd Medical Center",
-    "Cardiovascular: Electrophysiology": "",
+    "Procedures": [{"Cardiovascular: Electrophysiology": "",
     "Thyroidectomy": "",
     "Nuclear Medicine: Musculoskeletal": "",
     "Central Line": "",
@@ -4397,5 +4407,5 @@ export default [
     "CVC Insertion": "",
     "Breast Biopsy": "",
     "Tonsillectomy": 4768
-  }
+  }]}
 ]
