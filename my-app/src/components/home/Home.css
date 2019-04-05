@@ -1,0 +1,21 @@
+    #welcome {
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: serif;
+    background-color: #D8DDEF;
+    border-style: solid;
+    border-color: #0080ff;
+  }
+a {
+  text-decoration: none;
+  color: #0080ff;
+  text-align: center;
+  padding: 5px;
+}
+.sidebar a:hover {
+  background-color: #D8DDEF;
+}
