@@ -9,6 +9,7 @@ export default function Header() {
       <div className="nav">
       <Link to="/">Home</Link>
       <Link to="/contact">Contact</Link>
+      <Link to="/map">Map</Link>
       </div>
     </div>
   );
