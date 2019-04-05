@@ -5,27 +5,31 @@
 
 <h1>Oregon Hospitals</h1>
 
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKCwoT2QjZr1Kg9w4UNZ7E148wB9M1hrg&libraries=places&callback=initMap"
         async defer></script>
+
+        <div style="display: none">
+            <input id="pac-input"
+                   class="controls"
+                   type="text"
+                   placeholder="Enter a location">
+        </div>
+        <div id="map"></div>
+        <div id="infowindow-content">
+            <span id="place-name" class="title"></span><br>
+            <strong>Place ID:</strong> <span id="place-id"></span><br>
+            <span id="place-address"></span>
+        </div>
+
 <script>
 
-<div style="display: none">
-    <input id="pac-input"
-           class="controls"
-           type="text"
-           placeholder="Enter a location">
-</div>
-<div id="map"></div>
-<div id="infowindow-content">
-    <span id="place-name" class="title"></span><br>
-    <strong>Place ID:</strong> <span id="place-id"></span><br>
-    <span id="place-address"></span>
-</div>
 
 
 
 
-<div id="googleMap" style="width:100%;height:400px;"></div>
+
 
 //uses load function to get file with lat/long
 map.data.loadGeoJson('test_data.json');
