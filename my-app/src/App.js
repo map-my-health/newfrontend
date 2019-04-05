@@ -7,10 +7,7 @@ import {
 import Home from '../src/components/home/Home';
 import Header from '../src/components/header/Header';
 import Contact from '../src/components/contact/contact';
-import CTScan from './components/Details/CTScan';
-import UltraSound from './components/Details/UltraSound';
-import Cardio from './components/Details/Cardio';
-
+import Map from '../src/components/map/map';
 import './App.css';
 
 export default function App() {
@@ -21,13 +18,9 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/ultrasound" component={UltraSound} />
-        <Route exact path="/cardio" component={Cardio} />
-        <Route exact path="/ctscan" component={CTScan} />
+        <Route exact path="/map" component={Map} />
       </Switch>
     </>
     </Router>
     );
   }
-
-
