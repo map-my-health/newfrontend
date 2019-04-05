@@ -7,7 +7,7 @@ export default function Header() {
       <h1 id="title">Map My Health</h1>
       <div className="nav">
       <Link to="/">Home</Link>
-      <Link to="/contact">Contacts</Link>
+      <Link to="/contact">Contact</Link>
       </div>
     </div>
   );

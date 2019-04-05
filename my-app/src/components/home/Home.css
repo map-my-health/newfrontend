@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  color: #6097A4;
+  text-align: center;
+  padding: 5px;
+}
+p {
+  text-align: center;
+  margin: 20px;
+  padding: 40px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: darkgray;
+}
+.sidebar a:hover {
+  background-color: lightgray;
+}
