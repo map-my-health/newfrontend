@@ -9,11 +9,14 @@ import { getData } from '../../services/dataSvc'
 // make this class based
 
 export default class Home extends React.PureComponent {
-
-  state = {
-    data: null,
+constructor(props){
+  super(props)
+  this.state = {
+   data: null,
     loading: true
   }
+}
+
 
 async componentDidMount(){
   const res = await getData();
@@ -33,7 +36,8 @@ async componentDidMount(){
     <Header />
     {/* //this.state.data.map(item => <p>{item.ultrasound}</p>) */}
     <p>This is home</p>
-    <Sidebar procedures={this.state}/>
+    <Sidebar procedures={this.state}
+    />
     </section>
   );
 }
