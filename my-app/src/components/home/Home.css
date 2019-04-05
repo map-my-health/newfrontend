@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     font-family: serif;
-    background-color: lightgrey;
+    background-color: #D8DDEF;
     border-style: solid;
     border-color: #0080ff;
   }
@@ -17,5 +17,5 @@ a {
   padding: 5px;
 }
 .sidebar a:hover {
-  background-color: lightgray;
+  background-color: #D8DDEF;
 }
