@@ -1,37 +1,31 @@
 import React, { Component } from "react";
 import './Sidebar.css'
 import { Link } from 'react-router-dom';
+import CTScan from '../Details/CTScan';
+import UltraSound from '../Details/UltraSound';
+import Cardio from '../Details/Cardio';
+import Details from '../Details/Details'
 
 class Sidebar extends Component {
-  handleProcedure(){
-    console.log(`this was clicked`)
-    return
-    
-  }
-  render() {
-  //   console.log(`This was passed to sidebar`,this.props.procedures.data)
-  // let procedures=this.props.procedures.data
-  // let getProcedures= procedures && procedures.map((proc,i) => {
-  //   console.log(`here are the procedures`,proc.Procedure)
-  //   return(
-  //    <li key={i}>{proc.Procedure}</li>
-  //   )
-  // })
  
-    // let getProcedures=procedures.map((item, i)=> {
-    //   console.log(item.Procedure)
-    // })
-    // procedures && procedures.map(proc=>{
-    //   console.log(Object.keys(proc.Procedures[0]))
-    // }
 
-    //console.log(`these are the keys`,Object.keys(procedures))
+  render() {
+  const procNames = this.props.procedures;
+  // console.log('procNames in Sidebar', procNames);
+  
+    if(!procNames) return null;
     return (
       <div className="sidebar">
-      <h2 className='procedure-list'>Procedures</h2>
-      <Link to='/ctscan' onClick={this.handleProcedure}>CT scan: Abdomen/GI</Link>
-      <Link to='/Cardio' onClick={this.handleProcedure}>Cardiovascular: Echocardiography</Link>
-      <Link to='/Ultrasound' onClick={this.handleProcedure}>Ultrasound</Link>
+      {procNames.map(proc => (<a onClick={() => this.props.onProcedureSelect(proc.name)} key={proc.index}>{proc.name}</a>))}
+      {/* {getProcedures} */}
+      {/* <h2 className='procedure-list'>Procedures</h2>
+      <Link to='/details' component={Details}>CT scan: Abdomen</Link>
+      <Link to='/details' component={Details}>Cardiovascular: Echocardiography</Link>
+    <Link to='/details' component={Details}>Ultrasound</Link> */}
+
+      {/* <Link to='/ctscan' component={CTScan}>CT scan: Abdomen/GI</Link>
+      <Link to='/Cardio' component={Cardio}>Cardiovascular: Echocardiography</Link>
+      <Link to='/Ultrasound' component={UltraSound}>Ultrasound</Link> */}
         {/* {procedures && procedures.map((proc, i) => <li key={i} >{Object.keys(proc.Procedures[0])}</li>)} */}
         {/* <a href="#">Outpatient</a>
         <a href="#">Imaging and Diagnostics</a>
